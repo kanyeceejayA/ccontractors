@@ -387,6 +387,7 @@ section{
 
 .about .about-container .content {
   /* background: #fff; */
+  vertical-align: bottom;
 }
 
 .about .about-container .title {
@@ -523,7 +524,6 @@ section{
 #team {
   background: #fff;
   padding: 60px 0;
-  box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
 }
 #team .member {
   text-align: center;
@@ -588,7 +588,7 @@ section{
 --------------------------------*/
 
 #contact {
-  box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
+  /* box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1); */
   padding: 4em 0;
   overflow: hidden;
 }
@@ -790,10 +790,14 @@ section{
   background: #ecf5ff;
   margin-bottom: 5px;
   transition: all 0.3s ease-in-out;
+  background: #fed9de;
+  color: black;
 }
 #portfolio #portfolio-flters li:hover, #portfolio #portfolio-flters li.filter-active {
   background: #007bff;
   color: #fff;
+  background: red;
+  color: white;
 }
 #portfolio #portfolio-flters li:last-child {
   margin-right: 0;
@@ -836,6 +840,7 @@ section{
 }
 #portfolio .portfolio-item .portfolio-wrap .portfolio-info h4 a {
   color: #fff;
+  line-height: 1;
 }
 #portfolio .portfolio-item .portfolio-wrap .portfolio-info h4 a:hover {
   color: #007bff;
@@ -991,7 +996,7 @@ section{
 }
 
 section.holder {
-    background: url(../img/embogo/aerial1-1920.jpg) center bottom no-repeat;
+    background: url(../img/consolidated-jacket.jpg) center bottom no-repeat;
     background-size: cover;
     padding: 0px;
 }
