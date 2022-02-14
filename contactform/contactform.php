@@ -36,15 +36,16 @@ $recaptcha = json_decode($recaptcha);
  */
 
 // an email address that will be in the From field of the email.
-$from = 'CapitalSavvy Website <capitalsavvy@chi-bnode1.websitehostserver.net>';
+$from = 'Consolidated Contractors Website <info@consolidatedcontractorsltd.com>';
 
 // an email address that will receive the email with the output of the form
-$sendTo = 'info@capitalsavvy.pro';
+// $sendTo = 'info@consolidatedcontractorsltd.com';
+$sendTo = 'kakbr800@gmail.com';
 
 // subject of the email
-$subject = 'New message from CapitalSavvy Website: '.$_POST['email'];
+$subject = 'New message from Consolidated Contractors Website: '.$_POST['email'];
 
-// form field names and their traCapitalSavvyations.
+// form field names .
 // array variable name => Text to appear in the email
 $fields = array('fname' => 'First Name',
                 'lname' => 'Last Name',
